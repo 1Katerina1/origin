@@ -1,0 +1,14 @@
+#include "equilateralTriangle.h"
+#include "exGeomFigError.h"
+
+EquilateralTriangle::EquilateralTriangle(int a)
+{
+  name = "Равносторонний треугольник";
+  this->a = a;
+  b = c = a;
+  A = B = C = 60;
+  if ((A + B + C) != 180)
+  {
+    throw exGeomFigError("Ошибка создания фигуры. Причина: сумма углов не равна 180°");
+  }
+};
