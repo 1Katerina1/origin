@@ -65,11 +65,14 @@ public:
     int gcd = GCD(numerator_, denominator_);
     return Fraction(numerator_ / gcd, denominator_ / gcd);
   }
+// нужно сохранить предыдущее значение объекта в отдельную переменную, потом изменить значение объекта,
+// и вернуть через return предыдущее значение:
   Fraction operator++(int) // постфиксный инкремент
   {
+    int tmp = numerator_;
     numerator_ = denominator_ + numerator_;
     int gcd = GCD(numerator_, denominator_);
-    return Fraction(numerator_ / gcd, denominator_ / gcd);
+    return Fraction(tmp / gcd, denominator_ / gcd);
   }
   Fraction operator--() // префиксный декремент
   {
@@ -79,9 +82,10 @@ public:
   }
   Fraction operator--(int) // постфиксный декремент
   {
+    int tmp = numerator_;
     numerator_ = numerator_ - denominator_;
     int gcd = GCD(numerator_, denominator_);
-    return Fraction(numerator_ / gcd, denominator_ / gcd);
+    return Fraction(tmp / gcd, denominator_ / gcd);
   }
   int GCD(int a, int b) // нахождение НОД
   {
@@ -134,14 +138,13 @@ int main()
   std::cout << "++" << f1.get_numerator() << "/" << f1.get_denominator() << " * "
             << f2.get_numerator() << "/" << f2.get_denominator() << " = ";
   (++f1 * f2).print();
-  std::cout << "Значение дроби 1 = "; // 7/4
+  std::cout << "Значение дроби 1 = ";
   f1.print();
   std::cout << f1.get_numerator() << "/" << f1.get_denominator() << "--" << " * "
-    << f2.get_numerator() << "/" << f2.get_denominator() << " = ";
+            << f2.get_numerator() << "/" << f2.get_denominator() << " = ";
   (f1-- * f2).print();
   std::cout << "Значение дроби 1 = ";
   f1.print();
-  
 
   return 0;
 }
