@@ -1,0 +1,4 @@
+/home/ekaterina/Desktop/origin/projects/racing_simulator/build/CMakeFiles/rebuild_cache.dir
+/home/ekaterina/Desktop/origin/projects/racing_simulator/build/CMakeFiles/edit_cache.dir
+/home/ekaterina/Desktop/origin/projects/racing_simulator/build/CMakeFiles/main.dir
+/home/ekaterina/Desktop/origin/projects/racing_simulator/build/CMakeFiles/MyLibrary.dir
