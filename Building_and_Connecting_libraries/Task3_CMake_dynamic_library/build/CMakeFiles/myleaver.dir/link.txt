@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/myleaver.dir/main.cpp.o  -o myleaver -Wl,-rpath,/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task3_CMake_dynamic_library/build libleaver.so 

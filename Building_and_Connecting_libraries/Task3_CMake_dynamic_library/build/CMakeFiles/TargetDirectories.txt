@@ -1,0 +1,4 @@
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task3_CMake_dynamic_library/build/CMakeFiles/rebuild_cache.dir
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task3_CMake_dynamic_library/build/CMakeFiles/edit_cache.dir
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task3_CMake_dynamic_library/build/CMakeFiles/myleaver.dir
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task3_CMake_dynamic_library/build/CMakeFiles/leaver.dir

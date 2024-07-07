@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task3_CMake_dynamic_library/leaver.h
+iostream
+-
+
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task3_CMake_dynamic_library/main.cpp
+iostream
+-
+leaver.h
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task3_CMake_dynamic_library/leaver.h
+
