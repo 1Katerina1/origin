@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/main.dir/main.cpp.o  -o main -Wl,-rpath,/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task5_Class_hierarchy_DLL_and_CMake/build libMyLibrary.so 

@@ -1,0 +1,4 @@
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task5_Class_hierarchy_DLL_and_CMake/build/CMakeFiles/rebuild_cache.dir
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task5_Class_hierarchy_DLL_and_CMake/build/CMakeFiles/edit_cache.dir
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task5_Class_hierarchy_DLL_and_CMake/build/CMakeFiles/main.dir
+/home/ekaterina/Desktop/origin/Building_and_Connecting_libraries/Task5_Class_hierarchy_DLL_and_CMake/build/CMakeFiles/MyLibrary.dir
