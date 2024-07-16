@@ -17,6 +17,7 @@ set(SOURCES
 
 add_library(MyLibrary SHARED ${SOURCES})
 target_compile_definitions(MyLibrary PRIVATE USE_MY_LIBRARY)
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 # Добавляем путь для заголовочных файлов
 target_include_directories(MyLibrary PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
