@@ -1,0 +1,10 @@
+add_library(air 
+    air.cpp
+    air.h
+    broom.cpp
+    broom.h
+    eagle.cpp
+    eagle.h
+    magic_carpet.cpp
+    magic_carpet.h
+)

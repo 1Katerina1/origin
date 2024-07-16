@@ -1,0 +1,12 @@
+add_library(ground 
+    ground.cpp
+    ground.h
+    fast_camel.cpp
+    fast_camel.h
+    centaur.cpp
+    centaur.h
+    camel.cpp
+    camel.h
+    all_terrain_boots.cpp
+    all_terrain_boots.h
+)

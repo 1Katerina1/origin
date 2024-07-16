@@ -1,16 +1,16 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
-#include "vehicle.h"
-#include "ground.h"
-#include "air.h"
-#include "camel.h"
-#include "fast_camel.h"
-#include "centaur.h"
-#include "all_terrain_boots.h"
-#include "magic_carpet.h"
-#include "eagle.h"
-#include "broom.h"
+#include "vehicle/vehicle.h"
+#include "vehicle/ground/ground.h"
+#include "vehicle/air/air.h"
+#include "vehicle/ground/camel.h"
+#include "vehicle/ground/fast_camel.h"
+#include "vehicle/ground/centaur.h"
+#include "vehicle/ground/all_terrain_boots.h"
+#include "vehicle/air/magic_carpet.h"
+#include "vehicle/air/eagle.h"
+#include "vehicle/air/broom.h"
 
 int vehicles_count = 0; // Кол-во зарегистрированных ТС
 const int MAX_VEHICLES = 7; // Максимальное количество ТС
